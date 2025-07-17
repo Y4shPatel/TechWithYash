@@ -1,11 +1,16 @@
 import Projects from "../components/Projects";
-
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
 
 
   return (
+    
     <div>
+      <Helmet>
+  <title>Home | TechWithYash</title>
+  <meta name="description" content="Welcome to TechWithYash – a hub for tech blogs, projects, and learning." />
+</Helmet>
 
       {/* Intro Section */}
       <section id="intro" className="min-h-[60vh] flex flex-col justify-center items-center bg-[#f4f6fa] text-[#0a1f44] px-6">
