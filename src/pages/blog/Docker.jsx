@@ -10,13 +10,6 @@ export default function DockerBlog() {
   );
 
   return (
-    <div>
-      <Helmet>
-  <title>The Only Docker Blog You Need | TechWithYash</title>
-  <meta name="description" content="Learn Docker from scratch with examples and projects." />
-  <meta property="og:image" content="https://www.techwithyash.com/og-image.png" />
-</Helmet>
-
     <div className="max-w-4xl mx-auto px-4 py-12 text-gray-800">
       <h1 className="text-4xl font-bold mb-6">
         🐳 Only Docker Blog You Need To Start Working With It
@@ -393,7 +386,6 @@ volumes:
         <li><strong>Linux:</strong> <code>/var/lib/docker/volumes</code></li>
       </ul>
 
-    </div>
     </div>
   );
 }
