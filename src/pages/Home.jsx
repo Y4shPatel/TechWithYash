@@ -8,7 +8,7 @@ export default function Home() {
     
     <div>
       <Helmet>
-  <title>Home | TechWithYash</title>
+  <title>TechWithYash</title>
   <meta name="description" content="Welcome to TechWithYash – a hub for tech blogs, projects, and learning." />
 </Helmet>
 
